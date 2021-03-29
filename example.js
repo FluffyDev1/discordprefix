@@ -1,5 +1,5 @@
 // Get the client from the package.
-const { Client } = require("discordprefix");
+const { Client } = require("@danielquacks/discordprefix");
 // Initiate the client.
 const client = new Client({ defaultPrefix: "!" });
 

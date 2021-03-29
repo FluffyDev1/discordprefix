@@ -12,7 +12,7 @@ discordprefix is a new and good [Node.js](https://nodejs.org) package, easy-to-u
 ## Installation
 
 ```js
-npm install --save discord-prefix
+npm install --save @danielquacks/discord-prefix
 ```
 
 ## Examples
@@ -56,7 +56,7 @@ client.on('message', (message) => {
         // End the switch
     }
 });
-```
+```@
 
 ### Useful Functions
 ```js
