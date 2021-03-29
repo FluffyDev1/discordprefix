@@ -1,0 +1,20 @@
+{
+  "name": "discordprefix",
+  "version": "1.0.0",
+  "description": "A Package for managing and using custom prefixes for discord bots!",
+  "main": "index.js",
+  "keywords": [
+    "discord",
+    "prefix",
+    "custom",
+    "bot",
+    "discordprefix",
+    "danielquacks"
+  ],
+  "author": "DanielQuacks",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security"
+  }
+}
