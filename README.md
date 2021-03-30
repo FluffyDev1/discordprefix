@@ -38,7 +38,9 @@ client.on('message', (message) => {
 });
 ```
 
-Example in discord: [image](https://prnt.sc/10znd68)
+<a href="https://github.com/xMercyTheDeveloper/discordprefix/blob/master/examples/setprefix.png">
+    <img src="https://github.com/xMercyTheDeveloper/discordprefix/blob/master/examples/setprefix.png"/>
+</a>
 
 ### Useful Functions
 ```js
