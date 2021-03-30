@@ -38,6 +38,8 @@ client.on('message', (message) => {
 });
 ```
 
+Example in discord: [image](https://prnt.sc/10znd68)
+
 ### Useful Functions
 ```js
 // message - the message that this function will get the arguments.
