@@ -32,29 +32,9 @@ client.on('message', (message) => {
 
 ```js
 client.on('message', (message) => {
-    if(!client.checkMessage(message)) return;
-    
-    // Get the arguments of the message. USEFUL FUNCTION.
-    let args = client.getArguments(message);
-    // Get the command of the arguments. USEFUL FUNCTION.
-    let cmd = client.getCommand(args);
-
-    // Checking for commands
-    switch(cmd) {
-        // If cmd is "setprefix"
-        case "setprefix":
-            // Check for permissions! WARNING: if you don't add this, all members can use this command!
-            if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send('You don\'t have permission to use this command!');
-            // Check if there is no arguments, and send the current prefix of the guild.
-            if(!args[0]) return message.channel.send(`${message.guild.name}'s Current prefix is \`${client.getPrefixOfGuild(message.guild.id)}\``);
-            // Getting the first argument of the command (Example: ?)
-            let newPrefix = args[0].toLowerCase();
-            // Message Response Example: "Successfully changed prefix to `?`"
-            message.channel.send(client.setPrefixOfGuild(message.guild.id, newPrefix));
-            // End the case.
-            break;
-        // End the switch
-    }
+    let newPrefix = "~";
+    // Returns "Successfully changed prefix to `~`"
+    message.channel.send(client.setPrefixOfGuild(message.guild.id, newPrefix));
 });
 ```
 
