@@ -5,7 +5,7 @@ class Client extends DiscordClient {
 
     constructor(options) {
         super(options);
-        if(options.defaultPrefix) this.defaultPrefix = options.defaultPrefix;
+        if(options && options.defaultPrefix) { this.defaultPrefix = options.defaultPrefix; }
     }
 
     readyEvent() {
