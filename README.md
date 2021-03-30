@@ -56,7 +56,7 @@ client.on('message', (message) => {
         // End the switch
     }
 });
-```@
+```
 
 ### Useful Functions
 ```js
